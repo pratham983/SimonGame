@@ -42,7 +42,7 @@ console.log("gamepattern     " + gamePattern);
 }
 
 function playSound(name) {
-    var address = "sounds/" + name + ".mp3";
+    var address = name + ".mp3";
     var audio = new Audio(address);
     audio.play();
     animatePress(name);
